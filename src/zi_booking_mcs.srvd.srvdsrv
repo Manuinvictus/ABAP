@@ -1,0 +1,5 @@
+@EndUserText.label: 'Definicion de servicio de las reservas'
+define service ZI_BOOKING_MCS {
+  expose ZI_Booking_XXX as Booking;
+  expose I_Country      as Country;
+}
